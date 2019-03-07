@@ -1,5 +1,13 @@
 #!/usr/bin/env python3
 
+# Fetches an archive with markdown using Notion API
+#
+# Expects a Notion token in the `NOTION_TOKEN` environment variable.
+# Get this token from your browser’s cookies.
+#
+# Usage: NOTION_TOKEN=<token> ./notion.py <page-url>
+#
+
 import json
 import os
 import re
